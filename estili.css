@@ -1,0 +1,152 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+    background-image: url(image/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div.row {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.block {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+div.container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+div.foto {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+div.info-2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+h1.name{
+    color: rgb(255, 248, 248);
+    font-family: 'Courier New', Courier, monospace;
+}
+h3.subtitle{
+    font-size: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+p.paragraph{
+    font-size: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+b.destaque-1{
+    color: rgb(0, 0, 0);
+}
+b.destaque-2{
+    color: rgb(2, 2, 2);
+}
+
+div.container-projeto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    margin-right: 30%;
+    height: 30%;
+    background-color: rgb(0, 0, 0);
+    gap: 5px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+div.projeto{
+    height: 96%;
+    width: 98%;
+    background-color: rgb(32, 32, 41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+h2.nome-projeto{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.fa-linkedin{
+    font-size: 35px;
+    color: rgb(223, 223, 250);
+
+}
+.fa-github{
+    font-size: 35px;
+    color: rgb(223, 223, 250);
+}
+
+div.rodape{
+    height: 3%;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 52px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+}
+
+footer.footer{
+    display: flex;
+    gap: 40px;
+    height: 300%;
+    align-items: center;
+}
+h3.contato{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+h4.email{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+h4.tel{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
